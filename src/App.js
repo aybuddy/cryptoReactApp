@@ -39,8 +39,18 @@ function App() {
             </Switch>
           </div>
         </div>
+        <div className='footer'>
+          <h1 style={{ color: 'white', textAlign: 'center' }}>
+            Cryptoverse <br />
+            All Rights Reserved
+          </h1>
+          <ul>
+            <Link to='/'>Home</Link>
+            <Link to='/exchanges'>Exchanges</Link>
+            <Link to='/news'>News</Link>
+          </ul>
+        </div>
       </div>
-      <div className='footer'></div>
     </div>
   );
 }

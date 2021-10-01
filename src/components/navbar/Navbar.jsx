@@ -18,6 +18,7 @@ const Navbar = () => {
         <div className='avatar'>
           <img src={icon} alt='' />
         </div>
+        {/* TODO Fix link styling and hover styling */}
         <div className='logo'>
           <Link to='/'>Cryptoverse</Link>
         </div>

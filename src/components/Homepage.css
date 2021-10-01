@@ -1,0 +1,10 @@
+.row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 12px;
+}
